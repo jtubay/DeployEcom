@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 
 export const AboutMe = styled.div`
+.gold{
+    color:var(--mainGold)!important;
+
+}
+.white{
+    color:white;
+}
 #about{
     background:#282828;
     font-family: tahoma;
@@ -37,16 +44,25 @@ export const AboutMe = styled.div`
     display:inline-block;
 
 }
+.btn{
+    background:var(--mainGold);
+    border:none!important;
+    color:var(--mainDark);
+}
+.btn:hover{
+    background:var(--mainWhite);
+    color:var(--mainGold)
+}
 #about .about-link li a i{
     width:50px;
     height:50px;
     border-radius:50%;
     line-height:50px;
     text-align:center;
-    border:1px solid #d6c6b2;
+    border:1px solid var(--mainGold);
     margin-right:10px;
     font-size:22px;
-    color:#d6c6b2;
+    color:var(--mainWhite);
     transition:all .3s;
 }
 #about .about-link li a i:hover{
@@ -156,6 +172,12 @@ export const ProductWrapper = styled.div`
 }
 `
 export const FooterContainer = styled.footer`
+.white{
+    color:white;
+}
+.gold{
+    color:var(--mainGold);
+}
 footer p {
     color:white;
 }
