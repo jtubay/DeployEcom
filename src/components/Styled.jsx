@@ -156,58 +156,150 @@ export const ProductWrapper = styled.div`
 }
 `
 export const FooterContainer = styled.footer`
+footer p {
+    color:white;
+}
+footer{
+    background:var(--mainDark)!important;
+}
+footer.footer{
+    height: 100%;
+    
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+footer.footer .container h2{
+    color: var(--white);
+}
+
+footer.footer .newsletter .form-element{
+    background: black;
+    display: inline-block;
+}
+
+footer.footer .newsletter .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Josefin);
+    font-size: 1rem;
+    width: 74%;
+}
+
+footer.footer .newsletter .form-element span{
+    background: var(--sky);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+footer.footer .instagram div > img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer.footer .follow div i{
+    color: var(--white);
+    padding: 0 .4rem;
+}
+.socialI{
+    color: var(--white);
+    padding: 0 .4rem;
+}
+
+footer.footer .rights{
+    justify-content: center;
+    font-family: var(--Josefin);
+}
+
+footer.footer .rights h4 a{
+    color: var(--white);
+}
+
+footer.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+footer.footer .move-up span{
+    color: var(--midnight);
+}
+
+footer.footer .move-up span:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
    
 
-    .footer-middle{
-        margin-top: 5rem;
-        background: var(--mainDark);
-        padding-top: 2rem;
-        color: var(--mainWhite);
-        position: absolute;
-        bottom:-100;
-        width:100%;
-    }
-    .footer-bottom{
-        padding-top: 3rem;
-        padding-bottom:0.5rem;
-    }
-    .company{
-        color:var(--mainGold);
-    }
-    .imgLogo{
-        // border:.1rem solid var(--mainGold);
-        border-radius:50%;
-        margin-left:3rem;
-        height:120px;
-        width:120px;
+//     .footer-middle{
+//         margin-top: 5rem;
+//         background: var(--mainDark);
+//         padding-top: 2rem;
+//         color: var(--mainWhite);
+//         position: absolute;
+//         bottom:-100;
+//         width:100%;
+//     }
+//     .footer-bottom{
+//         padding-top: 3rem;
+//         padding-bottom:0.5rem;
+//     }
+//     .company{
+//         color:var(--mainGold);
+//     }
+//     .imgLogo{
+//         // border:.1rem solid var(--mainGold);
+//         border-radius:50%;
+//         margin-left:3rem;
+//         height:120px;
+//         width:120px;
         
-    }
-    .email{
-        text-decoration: none;
-        color: var(--mainWhite);
-    }
-    .contactMe{
-        color:var(--mainGold);
-    }
-    .social{
-        margin:1rem;
+//     }
+//     .email{
+//         text-decoration: none;
+//         color: var(--mainWhite);
+//     }
+//     .contactMe{
+//         color:var(--mainGold);
+//     }
+//     .social{
+//         margin:1rem;
         
         
-    }
-    .fa-instagram {
-        background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+//     }
+//     .fa-instagram {
+//         background: #d6249f;
+//   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+//   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 
   
 
-    }
-    .fa-twitter-square {
-       color: #00acee;
-    }
-.fa-facebook-square{
-    color:#3b5998
-}
+//     }
+//     .fa-twitter-square {
+//        color: #00acee;
+//     }
+// .fa-facebook-square{
+//     color:#3b5998
+// }
   
 `;
 export const ModalContainer = styled.div `
