@@ -3,6 +3,7 @@ import Product from './Product.jsx';
 import Title from './Title.jsx';
 import { ProductConsumer } from '../context'
 import Footer from '../components/Footer'
+import About from '../components/About'
 
 
 
@@ -10,6 +11,7 @@ export default class ProductList extends Component {
     render(){
         return (
             <React.Fragment>
+                <About/>
                 
                 <div className="py-5 mainDiv">
                     <div className="container">

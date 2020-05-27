@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const AboutMe = styled.div`
+
+`
+
 export const ButtonContainer = styled.button`
 text-transform:capitalize;
 font-size:1.4rem;
