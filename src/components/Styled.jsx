@@ -1,6 +1,68 @@
 import styled from 'styled-components';
 
 export const AboutMe = styled.div`
+#about{
+    background:#282828;
+    font-family: tahoma;
+    text-align:justify;
+    padding-top: 98px;
+    padding-bottom:101px;
+   
+}
+.shape{
+    margin-top:5rem;
+    height:20rem;
+    width:20rem;
+    border-radius:50%;
+    border:1px solid var(--mainGold);
+}
+.fa-play{
+    font-size:100px
+}
+#about .p-first{
+    margin-bottom:30px;
+}
+#about h2{
+    margin-bottom:47px;
+    margin-top:12px;
+}
+#about .social-link-text{
+    margin-top:50px;
+    margin-bottom:25px;
+}
+#about .about-link{
+    padding-left:0px;
+}
+#about .about-link li{
+    display:inline-block;
+
+}
+#about .about-link li a i{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    line-height:50px;
+    text-align:center;
+    border:1px solid #d6c6b2;
+    margin-right:10px;
+    font-size:22px;
+    color:#d6c6b2;
+    transition:all .3s;
+}
+#about .about-link li a i:hover{
+    color: #222222;
+    background:#d6c6b2;
+    border-color:#d6c6b2;
+}
+.color-3{
+    color:#d6c6b2;
+}
+p{
+    margin-bottom:0;
+    font-size:16px;
+    line-height:24px;
+}
+
 
 `
 
