@@ -88,14 +88,14 @@ export default function Footer() {
                     <div className="instagram">
                         <h2>Instagram</h2>
                         <div className="flex-row">
-                            <img src="./images/instagram/thumb-card3.png" alt="insta1"/>
-                            <img src="./images/instagram/thumb-card4.png" alt="insta2"/>
-                            <img src="./images/instagram/thumb-card5.png" alt="insta3"/>
+                            <img src="https://placehold.it/200" alt="insta1"/>
+                            <img src="https://placehold.it/200" alt="insta2"/>
+                            <img src="https://placehold.it/200" alt="insta3"/>
                         </div>
                         <div className="flex-row">
-                            <img src="./images/instagram/thumb-card3.png" alt="insta1"/>
-                            <img src="./images/instagram/thumb-card4.png" alt="insta2"/>
-                            <img src="./images/instagram/thumb-card5.png" alt="insta3"/>
+                            <img src="https://placehold.it/200" alt="insta1"/>
+                            <img src="https://placehold.it/200" alt="insta2"/>
+                            <img src="https://placehold.it/200" alt="insta3"/>
                         </div>
                     </div>
                     <div className="follow">
