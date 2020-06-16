@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import PayPalButton from './PaypalButton';
+// import PayPalButton from './PaypalButton';
 import StripeCheckout from 'react-stripe-checkout'
 
 

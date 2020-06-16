@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import logo from '../logo.svg';
 import { ButtonContainer, NavWrapper } from './Styled.jsx'
-import Footer from './Footer.jsx'
+// import Footer from './Footer.jsx'
 
 export default class NavBar extends Component{
     render(){

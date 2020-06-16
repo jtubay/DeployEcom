@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { storeProducts, detailProduct } from './data';
-import StripeCheckout from 'react-stripe-checkout'
+// import StripeCheckout from 'react-stripe-checkout'
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from 'axios';
@@ -165,7 +165,7 @@ class ProductProvider  extends Component{
         const cartTotal = this.state.cartTotal
         const cart = this.state.cart;
         const response = await axios.post(
-            'https://enigmatic-sands-26807.herokuapp.com/checkout',
+            'https://aqueous-badlands-41865.herokuapp.com/checkout',
             {token, cartTotal, cart}
         );
         const { status } = response.data;
