@@ -19,7 +19,7 @@ export default class About extends Component {
                         <p className="p-first text-white">
                         Hello Boss Babes and welcome to Nurhan! The name Nurhan literally means shining queen or light of queen. I picked this name because I want my customers to walk away with a purchase that makes them feel, radiant, light and like a Queen. 
                         </p>
-                        <p className="text-white"> Our goal at Nurhan is to offer trendy, rare and affordable products. We take pride & care in delivering fashionable products and quick shipping. Take your time and explore.</p>
+                        <p className="text-white"> Our goal at Nurhan is to offer trendy, rare and affordable products. We take pride & care in delivering fashionable products with quick shipping. Take your time and explore.</p>
                         <h3 className="color-3 social-link-text">
                             <button className="btn btn-danger">View product</button>
 
