@@ -11,7 +11,8 @@ export default function Footer() {
                     
                     <div className="about-us">
                         <h2> <span className="gold">About</span><span className="gold"> us</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio natus maxime, aliquid modi id mollitia in recusandae, molestias expedita nisi, officia at deserunt reiciendis nesciunt blanditiis quae? Reiciendis, harum porro?
+                        <p>Hello Boss Babes and welcome to Nurhan! The name Nurhan literally means shining queen or light of queen. I picked this name because I want my customers to walk away with a purchase that makes them feel, radiant, light and like a Queen. 
+
                         </p>
                     </div>
                 
@@ -39,7 +40,7 @@ export default function Footer() {
                     </div>
                     <div className="follow">
                         <h2>Follow us</h2>
-                        <p>Blah blah blah</p>
+                        <p>Click fellow and follow me on this journey</p>
                         <div>
                             <i className="socialI fab fa-facebook-f"></i>
                              <i className="socialI fab fa-twitter"></i>

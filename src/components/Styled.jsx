@@ -44,6 +44,7 @@ export const AboutMe = styled.div`
     display:inline-block;
 
 }
+
 .btn{
     background:var(--mainGold);
     border:none!important;

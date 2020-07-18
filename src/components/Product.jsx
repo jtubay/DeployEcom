@@ -16,11 +16,11 @@ export default class Product extends Component {
                     <ProductConsumer>
                         {(value) => (
 
-                        <div className="img-container p-5" onClick={()=>{
+                        <div  className="img-container " onClick={()=>{
                                 value.handleDetail(id)
                         }}>
                             <Link to='/details'>
-                                <img src={img} alt='product' className="card-img-top"/>
+                                <img style={{height:"30vh"}} src={img} alt='product' className="card-img-top"/>
                             </Link>
                             <button className="cart-btn" disabled={inCart? true : false} onClick={()=>{
                                 value.addToCart(id);
