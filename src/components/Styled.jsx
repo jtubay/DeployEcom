@@ -182,6 +182,9 @@ export const FooterContainer = styled.footer`
 footer p {
     color:white;
 }
+.foot-img{
+    height:1px;
+}
 footer{
     background:var(--mainDark)!important;
 }

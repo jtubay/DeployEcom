@@ -28,14 +28,14 @@ export default function Footer() {
                     <div className="instagram">
                         <h2><span className="gold">Instagram</span></h2>
                         <div className="flex-row">
-                            <img src="https://placehold.it/200" alt="insta1"/>
-                            <img src="https://placehold.it/200" alt="insta2"/>
-                            <img src="https://placehold.it/200" alt="insta3"/>
+                            <img style={{height:"4rem"}}  src="img/summerfunlightgreen.jpeg" alt="insta1"/>
+                            <img style={{height:"4rem"}} src="img/summerfunpink.jpeg" alt="insta2"/>
+                            <img style={{height:"4rem"}} src="img/summerfunleopardblack.jpeg" alt="insta3"/>
                         </div>
                         <div className="flex-row">
-                            <img src="https://placehold.it/200" alt="insta1"/>
-                            <img src="https://placehold.it/200" alt="insta2"/>
-                            <img src="https://placehold.it/200" alt="insta3"/>
+                            <img style={{height:"4rem"}} src="img/summerfunleopard.jpeg" alt="insta1"/>
+                            <img style={{height:"4rem"}} src="img/summerfundarkgreen.jpeg" alt="insta2"/>
+                            <img style={{height:"4rem"}} src="img/summerfunpurple.jpeg" alt="insta3"/>
                         </div>
                     </div>
                     <div className="follow">
