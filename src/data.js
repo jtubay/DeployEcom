@@ -413,7 +413,7 @@ export const storeProducts = [
     total: 0
   },
   {
-    id: 34,
+    id: 35,
     title: "Summer Fun Pink",
     img: "img/summerfunpink.jpeg",
     price: 10,
@@ -425,7 +425,7 @@ export const storeProducts = [
     total: 0
   },
   {
-    id: 35,
+    id: 36,
     title: "Summer Light Green",
     img: "img/summerfunlightgreen.jpeg",
     price: 10,
