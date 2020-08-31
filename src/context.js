@@ -160,12 +160,12 @@ class ProductProvider  extends Component{
             }
         })
     }
-   
+   /*https://aqueous-badlands-41865.herokuapp.com/checkout*/
     handleToken = async (token, addresses) => {
         const cartTotal = this.state.cartTotal
         const cart = this.state.cart;
         const response = await axios.post(
-            'https://aqueous-badlands-41865.herokuapp.com/checkout',
+            'http://localhost:8080/checkout',
             {token, cartTotal, cart}
         );
         const { status } = response.data;

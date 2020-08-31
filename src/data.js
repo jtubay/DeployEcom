@@ -92,7 +92,7 @@ export const storeProducts = [
     id: 8,
     title: "Rani - Ra4",
     img: "img/nurhan8.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Rani - Ra4!!! Order now!",
@@ -104,7 +104,7 @@ export const storeProducts = [
     id: 9,
     title: "Rani - Ra5",
     img: "img/nurhan9.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Rani - Ra5!!! Order now!",
@@ -116,7 +116,7 @@ export const storeProducts = [
     id: 10,
     title: "Rani - Ra6",
     img: "img/nurhan10.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Rani - Ra6!!! Order now!",
@@ -128,7 +128,7 @@ export const storeProducts = [
     id: 11,
     title: "Black-Gold",
     img: "img/blackgold.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Black-Gold!!! Order now!",
@@ -140,7 +140,7 @@ export const storeProducts = [
     id: 12,
     title: "Gold-Tea",
     img: "img/goldtea.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Gold - Tea!!! Order now!",
@@ -152,7 +152,7 @@ export const storeProducts = [
     id: 13,
     title: "Gold-Pink",
     img: "img/goldpink.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Gold - Pink!!! Order now!",
@@ -164,7 +164,7 @@ export const storeProducts = [
     id: 14,
     title: "Silver-Blue",
     img: "img/silverblue.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Silver - Blue!!! Order now!",
@@ -176,7 +176,7 @@ export const storeProducts = [
     id: 15,
     title: "Gold-Light-Tea",
     img: "img/goldlighttea.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Gold-Light-Tea!!! Order now!",
@@ -188,7 +188,7 @@ export const storeProducts = [
     id: 16,
     title: "Silver-Yellow",
     img: "img/silveryellow.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Silver - Yellow!!! Order now!",
@@ -200,7 +200,7 @@ export const storeProducts = [
     id: 17,
     title: "Transparent",
     img: "img/transparent.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the  Transparent!!! Order now!",
@@ -212,7 +212,7 @@ export const storeProducts = [
     id: 18,
     title: "Gold-Red",
     img: "img/goldred.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Gold - Red!!! Order now!",
@@ -224,7 +224,7 @@ export const storeProducts = [
     id: 19,
     title: "Delilah",
     img: "img/delilah.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Delilah!!! Order now!",
@@ -236,7 +236,7 @@ export const storeProducts = [
     id: 20,
     title: "Bella",
     img: "img/bella.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Bella!!! Order now!",
@@ -248,7 +248,7 @@ export const storeProducts = [
     id: 21,
     title: "Bella Island-Clear",
     img: "img/bellaislandclear.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Bella Island-Clear!!! Order now!",
@@ -260,7 +260,7 @@ export const storeProducts = [
     id: 22,
     title: "Bella Red",
     img: "img/bellared.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Bella Red!!! Order now!",
@@ -272,7 +272,7 @@ export const storeProducts = [
     id: 23,
     title: "Bella Pink",
     img: "img/bellapink.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
       "These are the Bella Pink!!! Order now!",
@@ -284,7 +284,7 @@ export const storeProducts = [
     id: 24,
     title: "Bella Black",
     img: "img/bellablack.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
     "These are the Bella Black!!! Order now!",
@@ -296,7 +296,7 @@ export const storeProducts = [
     id: 25,
     title: "Bella Brown",
     img: "img/bellabrown.jpeg",
-    price: 2,
+    price: 15,
     company: "apple",
     info:
     "These are the Bella Brown!!! Order now!",
